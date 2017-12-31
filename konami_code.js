@@ -21,9 +21,8 @@ let index = 0;
 
 // This is the function that would be invoked by the event listener.
 function onKeyDownHandler(e) {
-  const key = parseInt(e.detail || e.which);
+  const key = parseInt(e.detail); // || e.which)
 
-  key = parseInd(e.datail || e.which)
   if (key === alphabet[index]) {
     index++;
 
