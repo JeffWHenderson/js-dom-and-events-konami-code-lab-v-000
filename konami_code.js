@@ -4,8 +4,8 @@ let index = 0;
 //let key = ""
 
 document.querySelector('body').addEventListener('keydown', function(e) {
-  const key = parseInt(e.which)
-  console.log(key)
+  const key = parseInt(e.detail)
+
 //   const key = parseInt(e.detail || e.which);
 //
 //   console.log(key)
