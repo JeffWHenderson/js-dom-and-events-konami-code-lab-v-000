@@ -4,8 +4,22 @@ let index = 0;
 
 
 document.querySelector('body').addEventListener('keydown', function(e) {
-
-  alert("hello world")
+  alert(e.which)
+//   const key = parseInt(e.detail || e.which);
+// 
+//   console.log(key)
+//   if (key === code[index]) {
+//     index++;
+// 
+//     if (index === code.length) {
+//       alert("Hurray!");
+// 
+//       index = 0;
+//     }
+//   } else {
+//     index = 0;
+//   }
+// }
 })
 
 
