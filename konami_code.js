@@ -9,7 +9,7 @@ document.querySelector('body').addEventListener('keydown', function(e) {
 
         const key = parseInt(e.detail || e.which);
 
-        console.log(key)
+        console.log(e.detail)
         if (key === alphabet[index]) {
           index++;
 
