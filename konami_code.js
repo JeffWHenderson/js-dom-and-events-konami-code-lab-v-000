@@ -1,10 +1,10 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 // up, up, down, down, left, right, left, right, B, A
 let index = 0;
-let key = ""
+//let key = ""
 
 document.querySelector('body').addEventListener('keydown', function(e) {
-  key = parseInt(e.which)
+  const key = parseInt(e.which)
   console.log(key)
 //   const key = parseInt(e.detail || e.which);
 //
