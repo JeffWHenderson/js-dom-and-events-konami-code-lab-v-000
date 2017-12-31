@@ -7,7 +7,7 @@ let index = 0;
 
 document.querySelector('body').addEventListener('keydown', function(e) {
 
-        const key = parseInt(e.detail || e.which);
+        //const key = parseInt(e.detail || e.which);
 
         console.log(e.detail)
         if (key === alphabet[index]) {
