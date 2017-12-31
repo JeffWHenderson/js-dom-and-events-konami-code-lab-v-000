@@ -10,7 +10,7 @@ const input = document.querySelector('body')
 input.addEventListener('keydown', function(e) {
   const key = parseInt(e.detail)
 
-  console.log(key)
+  alert(key)
 })
 
 
