@@ -11,7 +11,7 @@ document.querySelector('body').addEventListener('keydown', function(e) {
      index++;
 
      if (index === code.length) {
-      alert("Hurray!");
+      alert("Flawless Victory!");
 
       index = 0;
     }
