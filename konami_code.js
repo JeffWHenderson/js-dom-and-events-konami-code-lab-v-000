@@ -5,7 +5,7 @@ let index = 0;
 
 document.querySelector('body').addEventListener('keydown', function(e) {
   const key = parseInt(e.which)
-
+  console.log(key)
    if (key === code[index]) {
      alert("level 1")
      index++;
