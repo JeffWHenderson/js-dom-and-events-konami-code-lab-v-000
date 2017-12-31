@@ -5,7 +5,7 @@ const alphabet = [65, 66, 67];
 let index = 0;
 
 function init() {
-  
+
   // Write your JavaScript code inside the init() function
         // function onKeyDownHandler(e) {
         //   alert('Hello World')
@@ -28,7 +28,7 @@ function init() {
 const input = document.querySelector('body')
 
 input.addEventListener('keydown', function(e) {
-  console.log(e.which)
+  alert(e.which)
 })
 // Keep track of index outside of the event handler.
 
