@@ -5,18 +5,17 @@ const alphabet = [65, 66, 67];
 let index = 0;
 
 
-const input = document.querySelector('body')
+document.querySelector('body').addEventListener('keydown', function(e) {
 
-input.addEventListener('keydown', function(e) {
-        
         const key = parseInt(e.detail || e.which);
-       
+
+        console.log(key)
         if (key === alphabet[index]) {
           index++;
-       
+
           if (index === alphabet.length) {
             alert("Hurray!");
-       
+
             index = 0;
           }
         } else {
